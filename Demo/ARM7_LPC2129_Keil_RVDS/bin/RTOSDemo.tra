@@ -1,0 +1,36 @@
+*** Creating Trace Output File '.\bin\RTOSDemo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\bin\startup.o"'
+### List of Objects: adding '".\bin\partest.o"'
+### List of Objects: adding '".\bin\main.o"'
+### List of Objects: adding '".\bin\serial.o"'
+### List of Objects: adding '".\bin\serialisr.o"'
+### List of Objects: adding '".\bin\4bitlcd.o"'
+### List of Objects: adding '".\bin\tasks.o"'
+### List of Objects: adding '".\bin\list.o"'
+### List of Objects: adding '".\bin\queue.o"'
+### List of Objects: adding '".\bin\port.o"'
+### List of Objects: adding '".\bin\heap_2.o"'
+### List of Objects: adding '".\bin\portasm.o"'
+### List of Objects: adding '".\bin\flash.o"'
+### List of Objects: adding '".\bin\comtest.o"'
+### List of Objects: adding '".\bin\blockq.o"'
+### List of Objects: adding '".\bin\dynamic.o"'
+### List of Objects: adding '".\bin\pollq.o"'
+### List of Objects: adding '".\bin\semtest.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\bin\startup.o" ".\bin\partest.o" ".\bin\main.o" ".\bin\serial.o" ".\bin\serialisr.o" ".\bin\4bitlcd.o" ".\bin\tasks.o" ".\bin\list.o" ".\bin\queue.o" ".\bin\port.o" ".\bin\heap_2.o" ".\bin\portasm.o" ".\bin\flash.o" ".\bin\comtest.o" ".\bin\blockq.o" ".\bin\dynamic.o" ".\bin\pollq.o" ".\bin\semtest.o" --strict --scatter ".\bin\RTOSDemo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTOSDemo.map" -o ".\bin\RTOSDemo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\bin\RTOSDemo.axf'
+### ADS-LD Command File: '.\bin\RTOSDemo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\bin\RTOSDemo.lnp', Handle=0x00000204
+### Writing '.lnp' file
+### ADS-LD Command file '.\bin\RTOSDemo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

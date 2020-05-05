@@ -1,0 +1,15 @@
+void lcd_cmd(unsigned char command);
+void lcd_data(unsigned char command);
+void delay(void);
+void ftos(float num);		 
+float stof(unsigned char*);
+int stof_lati(unsigned char*);
+int stof_longi(unsigned char*);
+void sms(void);
+void rsms_init(void);
+void timer_init(void);
+ void buzzer (void);
+void delay1(void);
+void  speed_calc(void);
+void alert(void);
+void lcd_init(void);

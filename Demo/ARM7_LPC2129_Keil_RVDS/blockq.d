@@ -1,0 +1,14 @@
+blockq.o: ..\Common\Minimal\BlockQ.c
+blockq.o: C:\Keil4_ARM\ARM\RV31\INC\stdlib.h
+blockq.o: ..\..\Source\include\FreeRTOS.h
+blockq.o: C:\Keil4_ARM\ARM\RV31\INC\stddef.h
+blockq.o: ..\..\Source\include\projdefs.h
+blockq.o: .\FreeRTOSConfig.h
+blockq.o: C:\Keil4_ARM\ARM\INC\Philips\lpc21xx.h
+blockq.o: ..\..\Source\include\portable.h
+blockq.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+blockq.o: ..\..\Source\include\mpu_wrappers.h
+blockq.o: ..\..\Source\include\task.h
+blockq.o: ..\..\Source\include\list.h
+blockq.o: ..\..\Source\include\queue.h
+blockq.o: ..\Common\include\BlockQ.h

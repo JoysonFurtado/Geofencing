@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "tasks.o" "list.o" "queue.o" "port.o" "heap_2.o" ".\portasm.o" "blockq.o" "dynamic.o" "pollq.o" "semtest.o" "main.o" "stof.o" "ftos.o" "lcdcmd.o" --strict --scatter "Geo_Fencing_RTOS_1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Geo_Fencing_RTOS_1.map" -o "Geo_Fencing_RTOS_1.axf"

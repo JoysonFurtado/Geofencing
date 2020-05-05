@@ -1,0 +1,14 @@
+pollq.o: ..\Common\Minimal\PollQ.c
+pollq.o: C:\Keil4_ARM\ARM\RV31\INC\stdlib.h
+pollq.o: ..\..\Source\include\FreeRTOS.h
+pollq.o: C:\Keil4_ARM\ARM\RV31\INC\stddef.h
+pollq.o: ..\..\Source\include\projdefs.h
+pollq.o: .\FreeRTOSConfig.h
+pollq.o: C:\Keil4_ARM\ARM\INC\Philips\lpc21xx.h
+pollq.o: ..\..\Source\include\portable.h
+pollq.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+pollq.o: ..\..\Source\include\mpu_wrappers.h
+pollq.o: ..\..\Source\include\task.h
+pollq.o: ..\..\Source\include\list.h
+pollq.o: ..\..\Source\include\queue.h
+pollq.o: ..\Common\include\PollQ.h

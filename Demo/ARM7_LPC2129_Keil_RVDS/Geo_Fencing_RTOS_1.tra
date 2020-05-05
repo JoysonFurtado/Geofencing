@@ -1,0 +1,33 @@
+*** Creating Trace Output File 'Geo_Fencing_RTOS_1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '".\portasm.o"'
+### List of Objects: adding '"blockq.o"'
+### List of Objects: adding '"dynamic.o"'
+### List of Objects: adding '"pollq.o"'
+### List of Objects: adding '"semtest.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stof.o"'
+### List of Objects: adding '"ftos.o"'
+### List of Objects: adding '"lcdcmd.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "tasks.o" "list.o" "queue.o" "port.o" "heap_2.o" ".\portasm.o" "blockq.o" "dynamic.o" "pollq.o" "semtest.o" "main.o" "stof.o" "ftos.o" "lcdcmd.o" --strict --scatter "Geo_Fencing_RTOS_1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Geo_Fencing_RTOS_1.map" -o "Geo_Fencing_RTOS_1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Geo_Fencing_RTOS_1.axf'
+### ADS-LD Command File: 'Geo_Fencing_RTOS_1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Geo_Fencing_RTOS_1.lnp', Handle=0x00000258
+### Writing '.lnp' file
+### ADS-LD Command file 'Geo_Fencing_RTOS_1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

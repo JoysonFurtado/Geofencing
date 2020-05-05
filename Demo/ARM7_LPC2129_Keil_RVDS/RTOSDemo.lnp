@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "partest.o" "serial.o" "serialisr.o" "startup.o" "tasks.o" "list.o" "queue.o" "port.o" "heap_2.o" ".\portasm.o" "flash.o" "comtest.o" "blockq.o" "dynamic.o" "pollq.o" "semtest.o" "key_final.o" "settings.o" "drivers.o" "4lcd.o" "4bitlcd.o" "main.o" --strict --scatter "RTOSDemo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTOSDemo.map" -o "RTOSDemo.axf"

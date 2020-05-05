@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "tasks.o" "list.o" "queue.o" "port.o" "heap_2.o" ".\portasm.o" "blockq.o" "dynamic.o" "pollq.o" "semtest.o" "main.o" "4bitlcd.o" "fuzzy.o" "humid_read.o" "init.o" "open_close.o" "temp_read.o" "warn_info.o" "wind_read.o" "manual.o" --strict --scatter "GreenHouse_RTOS.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GreenHouse_RTOS.map" -o "GreenHouse_RTOS.axf"

@@ -1,0 +1,12 @@
+.\bin\heap_2.o: ..\..\Source\portable\MemMang\heap_2.c
+.\bin\heap_2.o: C:\Keil4_ARM\ARM\RV31\INC\stdlib.h
+.\bin\heap_2.o: ..\..\Source\include\FreeRTOS.h
+.\bin\heap_2.o: C:\Keil4_ARM\ARM\RV31\INC\stddef.h
+.\bin\heap_2.o: ..\..\Source\include\projdefs.h
+.\bin\heap_2.o: .\FreeRTOSConfig.h
+.\bin\heap_2.o: C:\Keil4_ARM\ARM\INC\Philips\lpc21xx.h
+.\bin\heap_2.o: ..\..\Source\include\portable.h
+.\bin\heap_2.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\bin\heap_2.o: ..\..\Source\include\mpu_wrappers.h
+.\bin\heap_2.o: ..\..\Source\include\task.h
+.\bin\heap_2.o: ..\..\Source\include\list.h

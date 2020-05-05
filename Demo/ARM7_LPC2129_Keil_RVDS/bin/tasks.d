@@ -1,0 +1,16 @@
+.\bin\tasks.o: ..\..\Source\tasks.c
+.\bin\tasks.o: C:\Keil4_ARM\ARM\RV31\INC\stdio.h
+.\bin\tasks.o: C:\Keil4_ARM\ARM\RV31\INC\stdlib.h
+.\bin\tasks.o: C:\Keil4_ARM\ARM\RV31\INC\string.h
+.\bin\tasks.o: ..\..\Source\include\FreeRTOS.h
+.\bin\tasks.o: C:\Keil4_ARM\ARM\RV31\INC\stddef.h
+.\bin\tasks.o: ..\..\Source\include\projdefs.h
+.\bin\tasks.o: .\FreeRTOSConfig.h
+.\bin\tasks.o: C:\Keil4_ARM\ARM\INC\Philips\lpc21xx.h
+.\bin\tasks.o: ..\..\Source\include\portable.h
+.\bin\tasks.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\bin\tasks.o: ..\..\Source\include\mpu_wrappers.h
+.\bin\tasks.o: ..\..\Source\include\task.h
+.\bin\tasks.o: ..\..\Source\include\list.h
+.\bin\tasks.o: ..\..\Source\include\timers.h
+.\bin\tasks.o: ..\..\Source\include\StackMacros.h

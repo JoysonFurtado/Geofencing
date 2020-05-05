@@ -1,0 +1,39 @@
+*** Creating Trace Output File 'GreenHouse_RTOS.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '".\portasm.o"'
+### List of Objects: adding '"blockq.o"'
+### List of Objects: adding '"dynamic.o"'
+### List of Objects: adding '"pollq.o"'
+### List of Objects: adding '"semtest.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"4bitlcd.o"'
+### List of Objects: adding '"fuzzy.o"'
+### List of Objects: adding '"humid_read.o"'
+### List of Objects: adding '"init.o"'
+### List of Objects: adding '"open_close.o"'
+### List of Objects: adding '"temp_read.o"'
+### List of Objects: adding '"warn_info.o"'
+### List of Objects: adding '"wind_read.o"'
+### List of Objects: adding '"manual.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "tasks.o" "list.o" "queue.o" "port.o" "heap_2.o" ".\portasm.o" "blockq.o" "dynamic.o" "pollq.o" "semtest.o" "main.o" "4bitlcd.o" "fuzzy.o" "humid_read.o" "init.o" "open_close.o" "temp_read.o" "warn_info.o" "wind_read.o" "manual.o" --strict --scatter "GreenHouse_RTOS.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GreenHouse_RTOS.map" -o "GreenHouse_RTOS.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'GreenHouse_RTOS.axf'
+### ADS-LD Command File: 'GreenHouse_RTOS.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'GreenHouse_RTOS.lnp', Handle=0x00000360
+### Writing '.lnp' file
+### ADS-LD Command file 'GreenHouse_RTOS.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
